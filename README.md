@@ -1,39 +1,31 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<h1 align="center">GAME-ROOM Website</h1>
 
-Welcome USER_NAME,
+This is a website for an internet café, a gathering place mainly for PC gamers. The store will hold regular gaming competitions with the latest PC hardware and games installed. It will be designed to be accessible and responsive on a range of devices, targeted mainly for customers who enjoy video gaming, socialising and competing.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## User Experience (UX)
 
-## Gitpod Reminders
+-   ### User Stories
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+    -    #### First Time Visitor Goals
 
-`python3 -m http.server`
+            1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the store and the services they provide.
+            2. As a First Time Visitor, I want to easily navigate the site, view what computer hardware, gaming gear and video games are available.
+            3. As a First Time Visitor, I want to look for information regarding opening times, costs, location and contact details.
 
-A blue button should appear to click: *Make Public*,
+    -    #### Returning Visitor Goals
 
-Another blue button should appear to click: *Open Browser*.
+            1. As a Returning Visitor, I want to find out information of competitions/events being held.
+            2. As a Returning Visitor, I want to find out how to get in touch for questions I may have or sign up to enter an upcoming competition.
+            3. As a Returning Visitor, I want to find out if a new game is available, or new hardware installed.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    -    #### Frequent User Goals
+            
+            1. As a Frequent User, I want to find the next competition date and time.
+            2. As a Frequent User, I want to check the opening times and ask questions using the form.
+            3. As a Frequent User, I want to check if a new video game is installed on their machines, as well as latest hardware.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+-   ### Design
+    -   #### Colour Scheme
+        -   The three main colours used are black, blue and white.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap');
+
+header {
+    margin: 0;
+    font-family: 'Encode Sans', sans-serif;
+    }
+
+.container {
+    width: 100%;
+    margin-top: 0px;
+
+}
+
+body {
+    background-color:rgb(0, 0, 0, 0.9);
+    color: rgb(211, 211, 211); 
+    font-family: 'Encode Sans', sans-serif;
+}
+
+
+/*------------------------ Navigation Bar and Title */
+
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(58, 126, 153);
+    font-weight: 500; 
+    margin-top: 5px;
+}
+
+.left-nav-bar {
+    margin-top: 25px;
+    word-spacing: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.70);
+    float: left;
+}
+
+.right-nav-bar {
+    margin-top: 25px;
+    word-spacing: 15px;
+    text-align: center;
+    float: right;
+}
+
+/*------------------------ Images */
+
+.home-image {
+    height: 60vh;
+    background: url('../images/home-page.jpg') no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity:75% ;
+    position: relative;
+}
+
+hr {
+    border-color: rgb(58, 126, 153);
+}
+
+/*------------------------ Text */
+
+
+.welcome {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-align: center;
+}
+
+.game-room-desc {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.games-desc {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.games-desc h5 {
+    margin-top: 10%;
+    text-align: left;
+}
+
+
+.gameslist-image {
+    position: relative; 
+    float: right;
+    border-radius: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.gear-home-image {
+    position: relative; 
+    float: left;
+    border-radius: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.gear-desc {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.gear-desc h5 {
+    margin-top: 10%;
+    text-align: right;
+}
+
+.events-desc {
+    text-align: center;
+}
