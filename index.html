@@ -11,25 +11,69 @@
 </head>
 <body>
 	<header>
-        <!--Navigation Bar-->
-		<div class="container">
-			<div class="row no-gutters">
-				<nav class="col-sm left-nav-bar"> <!--The Left side nav bar-->
-					<h5> Home Games Gear </h5>
-				</nav>
-				<div class="col-sm title"> <!--The Center side nav bar-->
-					<h1> GAME-ROOM </h1>
-				</div>
-				<nav class="col-sm right-nav-bar"> <!--The Right side nav bar-->
-					<h5> Events Contact </h5>
-				</nav>
+		<!--Navigation Bar----------- original version
+		    <div class="container">
+			    <div class="row no-gutters">
+				    <ul class=""> <!--The Left side nav bar
+					    <li> <h5> Home </h5>
+                        <li> <h5> Games </h5>
+                        <li> <h5> Gear </h5>
+				    </ul>
+				    <div class="col-sm "> <!--The Center side nav bar
+					    <a class="title" href="index.html"><h1> GAME-ROOM </h1></a>
+				    </div>
+				    <nav class="col-sm right-nav-bar"> <!--The Right side nav bar-
+					    <h5> Events Contact </h5>
+				    </nav>
+			    </div>
+		    </div>
+        Navigation Bar----------- original version -->
+
+		<nav class="container-fluid navbar navbar-expand-md  navbar-dark">
+			<!-- "navbar-expand-md" will expand full nav bar -->
+			<!-- Brand -->
+		
+		
+			<!-- Toggler/collapsibe Button -->
+
+            <a class="title d-inline-block" href="index.html">
+				<h1 >GAME-ROOM</h1>
+			</a> 
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		        <span class="navbar-toggler-icon"></span>
+		    </button>
+
+
+
+			<!-- Navbar links -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item ">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Games</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Gear</a>
+					</li>
+                    <li class="nav-item">
+						<a class="nav-link" href="#">Events</a>
+					</li>
+                    <li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
 			</div>
-		</div>
+		</nav>
+
     </header>
     <section>
-        <div class="container-fluid home-image welcome">
+        <div class="container-fluid home-image ">
             <div>
-                 Welcome <br>to <br>Play 
+                 <h1 class="welcome">Welcome to Play <br><h1>
+                 <hr width=60% style="border-width:2px;">
+                 <h3>For only £2 per hour<h3>
             </div>
         </div>
     </section>
@@ -41,50 +85,110 @@
         </div>
     </section>
     <section>
-        <div class="container games-desc">
-        <hr> <!-- horizontal line break-->
+        <div class="container-sm games-desc">
+            <hr> <!-- horizontal line break-->
             <div class="row">
-                <div class="col">
-                    <img src="assets/images/gameslist.png" alt="xxx" height="300px" class="gameslist-image">
+                <div class="col-sm-12 col-md-6">
+                    <img src="assets/images/gameslist.png" alt="xxx" width="70%" class="gameslist-image">
                 </div>
-                <div class="col">
+                <div class="col-sm-12 col-md-6">
                     <h5>The Games</h5>
                     <p> With an expansive library of video games, choose your entertainment. With a wide range of genres that include first-person-shooters, strategies, action, survival, racing and more. We have the latest games pre-installed games upon their respective release dates so you can ensure you will never miss out.</p>
-                    <span>Read More</span>
+                    <a href="#">Read More</a>
                 </div>
             </div>
         </div>
     </section>
     <section>
         <div class="container gear-desc ">
-        <hr>
+            <hr>
             <div class="row">
-                <div class="col">
+                <div class="col-sm-12 col-md-6 order-md-2"> 
+                    <img src="assets/images/gear1.jpg" alt="" width="70%" class="gear-home-image">
+                </div>
+                <div class="col-sm-12 col-md-6 order-md-1"> 
                     <h5>The Gear</h5>
                     <p>Everybody knows the higher the frames, the smoother the experience. Play on some of the best equipment available and gain the edge over your competition, or enjoy seamless action on the most demanding games available. We regularly update our hardware and peripherals for an enhanced gaming experience. </p>
-                    <span>Read More</span>
+                    <a href="#">Read More</a>
                 </div>
-                <div class="col">
-                    <img src="assets/images/gear1.jpg" alt="" height="300px" class="gear-home-image">
-                </div>
+
             </div>
         </div>
     </section>
     <section>
         <div class="container events-desc">
-        <hr>
-            <div >
-                <h5>The Events</h5>
+            <hr>
+            <div>
+                
                 <img src="assets/images/event.jpg" alt="xxx" width="90%" class="event-home-image">
+                <h5>The Events</h5>
                 <p>Regular events and competitions take place at our venue. Everyone is welcome to enter or spectate in these high-octane, high intensity competitions. Prizes to be won by the best of the best players.</p>
-                <span>Read More</span>
+                <a href="#">Read More</a>
             </div>
+            <hr>
         </div>
+        
     </section>
-
+    
 
     <footer>
-    FOOTER PLACEHOLDER
+        <section>
+            <div class="container-fluid">
+                <div class="row no-gutters">
+					<div class="col d-none d-md-block text-left">
+						<ul style="list-style-type:none;">
+							<li><b>Opening Hours</b></li>
+							<li>Mon-Fri....9am-11pm</li>
+							<li>Saturday...10am-midnight</li>
+                            <li>Sunday.....11am-8pm</li>
+                            <li>Public holidays, please contact us for information</li>
+						</ul>
+                    </div>
+                    <div class="col text-md-center">
+						<ul style="list-style-type:none;">
+							<li><b>Contact Details</b></li>
+							<li>support@gameroom.com</li>
+                            <li>01443 888777</li>			
+                                                       
+						</ul>
+                    </div>
+					<div class="col text-right">
+						<ul class="list-inline social-links">
+							<li class="list-inline-item">
+								<a target="_blank" href="http.facebook.com">
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+									<span class="sr-only">Facebook</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="#">
+									<i class="fa fa-instagram" aria-hidden="true"></i>
+									<span class="sr-only">Instagram</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="http.twitter.com">
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+									<span class="sr-only">Twitter</span>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a target="_blank" href="http.youtube.com">
+									<i class="fa fa-youtube" aria-hidden="true"></i>
+									<span class="sr-only">YouTube</span>
+								</a>
+							</li>
+					</div>
+                </div>
+            </div>
+        </section>        
+
+    
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </body>
 </html>

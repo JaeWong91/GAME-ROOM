@@ -20,6 +20,9 @@ body {
 
 /*------------------------ Navigation Bar and Title */
 
+.navbar-nav {
+    float: right;
+}
 
 .title {
     font-size: 50px;
@@ -27,22 +30,9 @@ body {
     color: rgb(58, 126, 153);
     font-weight: 500; 
     margin-top: 5px;
+    position: ;
 }
 
-.left-nav-bar {
-    margin-top: 25px;
-    word-spacing: 15px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.70);
-    float: left;
-}
-
-.right-nav-bar {
-    margin-top: 25px;
-    word-spacing: 15px;
-    text-align: center;
-    float: right;
-}
 
 /*------------------------ Images */
 
@@ -67,6 +57,35 @@ hr {
 
 /*------------------------ Text */
 
+footer {
+    font-size: 12px;
+    padding-top: 30px;
+
+    margin: 0;
+}
+
+footer, ul {
+    padding-inline-start:0;
+}
+
+
+.social-links li a i {
+    color: white;
+    width: 32px;
+    height: 32px;
+    padding-top: 20px;
+    font-size: 25px;
+    line-height: 7px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: rgb(58, 126, 153);
+}
 
 .welcome {
     font-size: 50px;
@@ -83,6 +102,14 @@ h5 {
     text-align: center;
 }
 
+h5 {
+    margin-top: 3px;
+}
+
+p {
+    text-align: justify;
+}
+
 .game-room-desc {
     margin-top: 20px;
     text-align: center;
@@ -90,41 +117,47 @@ h5 {
 
 .games-desc {
     margin-top: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .games-desc h5 {
-    margin-top: 10%;
-    text-align: left;
+    margin-top: 3px;
 }
 
 
 .gameslist-image {
     position: relative; 
-    float: right;
-    border-radius: 40px;
+    /* float: right;      try to do only medium or large display*/
+    border-radius: 30px;
     margin-top: 5%;
     margin-bottom: 5%;
+
 }
 
 .gear-home-image {
     position: relative; 
-    float: left;
-    border-radius: 40px;
+    /* float: left;  try to do only medium or large display*/
+    border-radius: 30px;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
 .gear-desc {
     margin-top: 20px;
-    text-align: right;
+    text-align: center;
 }
 
-.gear-desc h5 {
-    margin-top: 10%;
-    text-align: right;
+.gear-desc p {
+    text-align: justify;
 }
 
 .events-desc {
     text-align: center;
+}
+
+.event-home-image {
+    position: relative; 
+    border-radius: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
