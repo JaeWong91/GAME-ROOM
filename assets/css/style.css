@@ -20,19 +20,48 @@ body {
 
 /*------------------------ Navigation Bar and Title */
 
-.navbar-nav {
-    float: right;
-}
 
 .title {
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     color: rgb(58, 126, 153);
-    font-weight: 500; 
-    margin-top: 5px;
-    position: ;
+    font-weight: 500;
+    padding-bottom: 0; 
+    display: inline;  
 }
 
+
+.title:hover {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+
+.navbar .container-fluid {   /*this is to negate the defauld "display-flex" on title, and to center it on medium or higher devices*/
+    display: inline;
+    text-align: center;
+
+}
+
+
+.navbar-dark .navbar-toggler {
+    border-color: transparent;      /*--remove border from burger menu icon credit stack flow */
+    
+}
+
+.nav-link:hover {                /*NOT WORKING*/
+    color: rgb(58, 126, 153);
+}
+
+.navbar-toggler-icon {
+    vertical-align: initial;
+}
+
+
+.navbar-collapse {
+    display: flex;
+
+}
 
 /*------------------------ Images */
 

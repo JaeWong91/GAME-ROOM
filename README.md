@@ -47,9 +47,27 @@ This is a website for an internet café, a gathering place mainly for PC gamers.
 
 ## Technologies Used
 
-### Languages Used
+*    ### Languages Used
 
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+
+### Frameworks, Libraries & Programs Used
+
+1. Bootstrap 
+1. Font Awesome
+1. Balsamiq
+1. Google Fonts
+1. JQuery
+1. Github
+1. Gitpod
+
+
+### Code
+
+1. Bootstrap 4 - Used throughout the project.
+2. The dual collapse navigation bar was used from Stackoverflow - (https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items)
+
 
 
