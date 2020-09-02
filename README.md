@@ -71,3 +71,14 @@ This is a website for an internet café, a gathering place mainly for PC gamers.
 
 
 
+### Images
+
+1. Background Image on 'Games' page - (wallpaperaccess.com)
+2. league of legends image - (https://rememberthemothers.net/wp-content/uploads/2016/06/22002-league-of-legends-1920x1080-game-wallpaper.png)
+3. Valorant image - (https://techcoffeehouse.com/2020/06/03/valorant-is-now-live-and-free-to-play-worldwide/)
+4. Call of Duty image - (https://www.humblebundle.com/)
+5. Starcraft 2 image - (https://www.gamivo.com/product/starcraft-2-wings-of-liberty-eu)
+6. Assassin's Creed Odyssey - (https://www.humblebundle.com/store/assassins-creed-odyssey)
+7. Fall Guys image - (fallguys.com)
+8. Overwatch image - (https://playoverwatch.com/en-gb/)
+9. Final fantasy image - (https://na.finalfantasyxiv.com/shadowbringers/)

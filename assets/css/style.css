@@ -1,19 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap'); /*Encode Sans*/
+/* below are 3 different font families */
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Monoton&family=Righteous&display=swap');
+
 
 header {
     margin: 0;
-    font-family: 'Encode Sans', sans-serif;
+    font-family: 'Righteous', sans-serif;
     }
 
 .container {
     width: 100%;
     margin-top: 0px;
-
 }
 
 body {
     background-color:rgb(0, 0, 0, 0.9);
-    color: rgb(211, 211, 211); 
+    color: #d3d3d3; 
     font-family: 'Encode Sans', sans-serif;
 }
 
@@ -24,10 +26,11 @@ body {
 .title {
     font-size: 40px;
     text-align: center;
-    color: rgb(58, 126, 153);
+    color: #3a7e99;
     font-weight: 500;
     padding-bottom: 0; 
     display: inline;  
+    font-family: 'Righteous', sans-serif;
 }
 
 
@@ -36,11 +39,13 @@ body {
     text-decoration: none;
 }
 
+.navbar {
+    font-family: 'Encode Sans', sans-serif;
+}
 
-.navbar .container-fluid {   /*this is to negate the defauld "display-flex" on title, and to center it on medium or higher devices*/
-    display: inline;
+.navbar .container-fluid {   /*this is to negate the default "display-flex" on title, and to center it on medium or higher devices*/
+    display: inline; 
     text-align: center;
-
 }
 
 
@@ -50,53 +55,28 @@ body {
 }
 
 .nav-link:hover {                /*NOT WORKING*/
-    color: rgb(58, 126, 153);
+    color: #3a7e99;
 }
 
 .navbar-toggler-icon {
     vertical-align: initial;
 }
 
-
 .navbar-collapse {
     display: flex;
-
 }
 
-/*------------------------ Images */
-
-.home-image {
-    height: 60vh;
-    background: url('../images/home-page.jpg') no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    opacity:75% ;
-    position: relative;
-}
-
-hr {
-    border-color: rgb(58, 126, 153);
-}
-
-/*------------------------ Text */
+/*------------------------ Footer */
 
 footer {
     font-size: 12px;
     padding-top: 30px;
-
     margin: 0;
 }
 
 footer, ul {
     padding-inline-start:0;
 }
-
 
 .social-links li a i {
     color: white;
@@ -113,14 +93,100 @@ footer, ul {
 }
 
 .social-links li a i:hover {
-    color: rgb(58, 126, 153);
+    color: #3a7e99;
 }
 
-.welcome {
+
+/*------------------------ Images */
+
+.home-image {
+    height: 60vh;
+    background: url('../images/home-page.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity:80% ;
+    position: relative;
+}
+
+hr {
+    border-color: #3a7e99;
+}
+
+.thegamesbg-image {
+    height: 60vh;
+    background: url('../images/thegames-bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity:80% ;
+    position: relative;
+}
+
+.gameslist-image {
+    position: relative; 
+    /* float: right;      try to do only medium or large display*/
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media screen and (min-width: 768px) {
+    .gameslist-image {
+        float: right;
+  }
+}
+
+
+.gear-home-image {
+    position: relative; 
+    /* float: left;  try to do only medium or large display*/
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media screen and (min-width: 768px) {
+    .gear-home-image {
+    float: left;
+    }
+}
+
+.event-home-image {
+    position: relative; 
+    margin-top: 5%;
+    
+    
+    opacity: 80%;
+}
+
+@media (max-width: 767px) {
+    .carousel-item>img {
+        height: 200px;
+        
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-item>img {
+        height: 300px;
+    }
+}
+
+/*------------------------ Text */
+
+
+.callout {
     font-size: 50px;
     text-align: center;
     color: white;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 h1,
@@ -129,46 +195,32 @@ h3,
 h4,
 h5 {
     text-align: center;
+    font-family: 'Righteous', sans-serif;
 }
 
-h5 {
-    margin-top: 3px;
-}
 
 p {
     text-align: justify;
+    font-size: 14px;
 }
 
-.game-room-desc {
-    margin-top: 20px;
+/* .page-desc {
+    margin-top: 15px;
     text-align: center;
-}
+} */
+
 
 .games-desc {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     text-align: center;
 }
 
-.games-desc h5 {
-    margin-top: 3px;
-}
-
-
-.gameslist-image {
-    position: relative; 
-    /* float: right;      try to do only medium or large display*/
-    border-radius: 30px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-
-}
-
-.gear-home-image {
-    position: relative; 
-    /* float: left;  try to do only medium or large display*/
-    border-radius: 30px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+@media screen and (min-width: 768px) {
+    .games-desc h5,
+    .games-desc > a {
+        text-align: left;
+        margin-top: 10%;
+    }
 }
 
 .gear-desc {
@@ -176,17 +228,33 @@ p {
     text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+    .gear-desc h5 {
+        text-align: right;
+        margin-top: 10%;
+    }
+}
+
 .gear-desc p {
     text-align: justify;
 }
 
-.events-desc {
-    text-align: center;
+p>a {
+    color:  #3a7e99;
 }
 
-.event-home-image {
-    position: relative; 
-    border-radius: 30px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+span>a {
+    color:  #3a7e99;
+}
+
+p>a:hover {
+    color: white;
+    border-color: #3a7e99;
+    text-decoration: none;
+}
+
+span>a:hover {
+    color: white;
+    border-color: #3a7e99;
+    text-decoration: none;
 }
