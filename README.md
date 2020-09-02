@@ -82,3 +82,14 @@ This is a website for an internet café, a gathering place mainly for PC gamers.
 7. Fall Guys image - (fallguys.com)
 8. Overwatch image - (https://playoverwatch.com/en-gb/)
 9. Final fantasy image - (https://na.finalfantasyxiv.com/shadowbringers/)
+10. Razer Mouse - (https://www.razer.com/gaming-mice/razer-viper-ultimate/RZ01-03050100-R3U1)
+11. Razer Keyboard - (https://www.razer.com/gaming-keyboards/Razer-BlackWidow-Elite/RZ03-02621800-R3M1)
+12. Steelseries headset - (https://steelseries.com/gaming-headsets/arctis-pro-wireless?color=black)
+13. Secret Lab Chair - (https://www.cyberpunk.net/en/news/35593/the-secretlab-cyberpunk-2077-edition)
+
+### Videos
+
+1. Graphics Card - RTX 3080 - Youtube, nVidia channel (https://www.youtube.com/watch?v=7QeoZY4tf9I)
+2. CPU - AMD Ryzen 9 3950X - Youtube, AMD channel ()
+3. Monitor - TUF Gaming VG32VQ - Youtube, Asus channel ()
+

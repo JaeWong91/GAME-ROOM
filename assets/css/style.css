@@ -69,7 +69,7 @@ body {
 /*------------------------ Footer */
 
 footer {
-    font-size: 12px;
+    font-size: 14px;
     padding-top: 30px;
     margin: 0;
 }
@@ -80,8 +80,8 @@ footer, ul {
 
 .social-links li a i {
     color: white;
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     padding-top: 20px;
     font-size: 25px;
     line-height: 7px;
@@ -120,6 +120,20 @@ hr {
 .thegamesbg-image {
     height: 60vh;
     background: url('../images/thegames-bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity:80% ;
+    position: relative;
+}
+
+.thegearbg-image {
+    height: 60vh;
+    background: url('../images/gear2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -193,7 +207,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
     text-align: center;
     font-family: 'Righteous', sans-serif;
 }
@@ -204,14 +219,7 @@ p {
     font-size: 14px;
 }
 
-/* .page-desc {
-    margin-top: 15px;
-    text-align: center;
-} */
-
-
 .games-desc {
-    /* margin-top: 20px; */
     text-align: center;
 }
 
