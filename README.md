@@ -68,7 +68,7 @@ This is a website for an internet café, a gathering place mainly for PC gamers.
 
 1. Bootstrap 4 - Used throughout the project.
 2. The dual collapse navigation bar was used from Stackoverflow - (https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items)
-
+3. Background hero image opacity change without affecting text - (https://coder-coder.com/background-image-opacity/#:~:text=Since%20the%20pseudo-element%20is,so%20it%20doesn't%20collapse)
 
 
 ### Images
@@ -86,6 +86,7 @@ This is a website for an internet café, a gathering place mainly for PC gamers.
 11. Razer Keyboard - (https://www.razer.com/gaming-keyboards/Razer-BlackWidow-Elite/RZ03-02621800-R3M1)
 12. Steelseries headset - (https://steelseries.com/gaming-headsets/arctis-pro-wireless?color=black)
 13. Secret Lab Chair - (https://www.cyberpunk.net/en/news/35593/the-secretlab-cyberpunk-2077-edition)
+14. Background image on Events page - (https://steelseries.com/gaming-headsets/arctis-pro)
 
 ### Videos
 

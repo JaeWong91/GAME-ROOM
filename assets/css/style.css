@@ -29,13 +29,13 @@ body {
     color: #3a7e99;
     font-weight: 500;
     padding-bottom: 0; 
-    display: inline;  
+    /* display: inline;  */
     font-family: 'Righteous', sans-serif;
 }
 
 
 .title:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: #ffffffcc;
     text-decoration: none;
 }
 
@@ -96,10 +96,28 @@ footer, ul {
     color: #3a7e99;
 }
 
+@media screen and (min-width: 500px) {
+    .opening-hours {
+        width: 50%;
+    }
+}
+ {
+
+}
 
 /*------------------------ Images */
 
-.home-image {
+hr {
+    border-color: #3a7e99;
+}
+
+.schedule {
+    border-color: #3a7e99;
+    background-color: #1b384441;
+}
+
+
+/* .home-image {
     height: 60vh;
     background: url('../images/home-page.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -111,13 +129,44 @@ footer, ul {
     justify-content: center;
     opacity:80% ;
     position: relative;
+} */
+
+
+.home-image {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-hr {
-    border-color: #3a7e99;
+.home-image::before {
+    content: "";
+    background: url('../images/home-page.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.8 ;
 }
 
-.thegamesbg-image {
+.line-sep {
+    position: relative;
+    color: #3a7e99;
+}
+
+.cost {
+    position: relative;
+    color: #b6b6b6;
+}
+
+
+/* .thegamesbg-image {
     height: 60vh;
     background: url('../images/thegames-bg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -129,9 +178,33 @@ hr {
     justify-content: center;
     opacity:80% ;
     position: relative;
+} */
+
+.thegamesbg-image {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.thegearbg-image {
+.thegamesbg-image::before {
+    content: "";
+    background: url('../images/thegames-bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.6 ;
+}
+
+
+/*.thegearbg-image {
     height: 60vh;
     background: url('../images/gear2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -143,11 +216,56 @@ hr {
     justify-content: center;
     opacity:80% ;
     position: relative;
+}*/
+
+.thegearbg-image {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thegearbg-image::before {
+    content: "";
+    background: url('../images/gear2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4 ;
+}
+
+.eventsbg-image {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eventsbg-image::before {
+    content: "";
+    background: url('../images/eventsbg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5 ;
 }
 
 .gameslist-image {
     position: relative; 
-    /* float: right;      try to do only medium or large display*/
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -161,24 +279,22 @@ hr {
 
 .gear-home-image {
     position: relative; 
-    /* float: left;  try to do only medium or large display*/
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
 @media screen and (min-width: 768px) {
     .gear-home-image {
-    float: left;
+        float: left;
     }
 }
 
 .event-home-image {
     position: relative; 
-    margin-top: 5%;
-    
-    
     opacity: 80%;
 }
+
+/*------------------------ Carousel */
 
 @media (max-width: 767px) {
     .carousel-item>img {
@@ -193,6 +309,10 @@ hr {
     }
 }
 
+.carousel-indicators {
+    position: relative;
+}
+
 /*------------------------ Text */
 
 
@@ -203,6 +323,11 @@ hr {
     font-weight: 500;
 }
 
+h1 {
+    position: relative;
+    color: white;
+}
+
 h1,
 h2,
 h3,
@@ -210,20 +335,15 @@ h4,
 h5,
 h6 {
     text-align: center;
-    font-family: 'Righteous', sans-serif;
+    font-family:'Righteous', sans-serif;
 }
-
 
 p {
     text-align: justify;
     font-size: 14px;
 }
 
-.games-desc {
-    text-align: center;
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {   /*home page "The Games" section */
     .games-desc h5,
     .games-desc > a {
         text-align: left;
@@ -231,20 +351,11 @@ p {
     }
 }
 
-.gear-desc {
-    margin-top: 20px;
-    text-align: center;
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {  /*home page "The Gear" section */
     .gear-desc h5 {
         text-align: right;
         margin-top: 10%;
     }
-}
-
-.gear-desc p {
-    text-align: justify;
 }
 
 p>a {
@@ -265,4 +376,8 @@ span>a:hover {
     color: white;
     border-color: #3a7e99;
     text-decoration: none;
+}
+
+.schedule>ul {
+    font-size: 14px;
 }
