@@ -264,6 +264,29 @@ hr {
     opacity: 0.5 ;
 }
 
+.contactbg-image {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactbg-image::before {
+    content: "";
+    background: url('../images/contact.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3 ;
+}
+
 .gameslist-image {
     position: relative; 
     margin-top: 5%;
@@ -380,4 +403,25 @@ span>a:hover {
 
 .schedule>ul {
     font-size: 14px;
+}
+
+/*------------------------ Form */
+.no-arrow {
+  -moz-appearance: textfield;
+}
+
+.no-arrow::-webkit-inner-spin-button {
+  display: none;
+}
+
+.no-arrow::-webkit-outer-spin-button,
+.no-arrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#phone::-webkit-inner-spin-button, 
+#phone::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }

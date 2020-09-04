@@ -73,6 +73,10 @@ This is a website for an internet café, a gathering place mainly for PC gamers.
 
 ### Images
 
+Some Images taken from free stock sites www.pexels.com and https://unsplash.com/
+
+Other specific images were found with their corresponding links below.
+
 1. Background Image on 'Games' page - (wallpaperaccess.com)
 2. league of legends image - (https://rememberthemothers.net/wp-content/uploads/2016/06/22002-league-of-legends-1920x1080-game-wallpaper.png)
 3. Valorant image - (https://techcoffeehouse.com/2020/06/03/valorant-is-now-live-and-free-to-play-worldwide/)
