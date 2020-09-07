@@ -35,9 +35,9 @@ This is a website for an internet café, a gathering place for PC gamers. The ve
 
 *   ### Wireframes
 
-    -   Medium Device Wireframe - 
+    -   [Desktop Wireframe]()
 
-    -   Mobile Wireframe - 
+    -   [Mobile Wireframe]() 
 
 
 ## Features
@@ -97,20 +97,20 @@ Some Images taken from free stock sites www.pexels.com and https://unsplash.com/
 
 Other specific images were found with their corresponding links below where I was unable to find suitable ones on Pexels or Unsplash.
 
-1. Background Image on 'Games' page - (wallpaperaccess.com)
-2. league of legends image - (https://rememberthemothers.net/wp-content/uploads/2016/06/22002-league-of-legends-1920x1080-game-wallpaper.png)
-3. Valorant image - (https://techcoffeehouse.com/2020/06/03/valorant-is-now-live-and-free-to-play-worldwide/)
-4. Call of Duty image - (https://www.humblebundle.com/)
-5. Starcraft 2 image - (https://www.gamivo.com/product/starcraft-2-wings-of-liberty-eu)
-6. Assassin's Creed Odyssey - (https://www.humblebundle.com/store/assassins-creed-odyssey)
-7. Fall Guys image - (fallguys.com)
-8. Overwatch image - (https://playoverwatch.com/en-gb/)
-9. Final fantasy image - (https://na.finalfantasyxiv.com/shadowbringers/)
-10. Razer Mouse - (https://www.razer.com/gaming-mice/razer-viper-ultimate/RZ01-03050100-R3U1)
-11. Razer Keyboard - (https://www.razer.com/gaming-keyboards/Razer-BlackWidow-Elite/RZ03-02621800-R3M1)
-12. Steelseries headset - (https://steelseries.com/gaming-headsets/arctis-pro-wireless?color=black)
-13. Secret Lab Chair - (https://www.cyberpunk.net/en/news/35593/the-secretlab-cyberpunk-2077-edition)
-14. Background image on Events page - (https://steelseries.com/gaming-headsets/arctis-pro)
+1. Background Image on 'Games' page - [wallpeperaccess.com](wallpaperaccess.com)
+2. league of legends image - [rememberthemothers.net](https://rememberthemothers.net/wp-content/uploads/2016/06/22002-league-of-legends-1920x1080-game-wallpaper.png)
+3. Valorant image - [techcoffeehouse.com](https://techcoffeehouse.com/2020/06/03/valorant-is-now-live-and-free-to-play-worldwide/)
+4. Call of Duty image - [humblebundle.com](https://www.humblebundle.com/)
+5. Starcraft 2 image - [gamivo.com](https://www.gamivo.com/product/starcraft-2-wings-of-liberty-eu)
+6. Assassin's Creed Odyssey - [humblebundle.com](https://www.humblebundle.com/store/assassins-creed-odyssey)
+7. Fall Guys image - [fallguys.com](fallguys.com)
+8. Overwatch image - [playoverwatch.com](https://playoverwatch.com/en-gb/)
+9. Final fantasy image - [na.finalfantasyxiv.com](https://na.finalfantasyxiv.com/shadowbringers/)
+10. Razer Mouse - [razer.com](https://www.razer.com/gaming-mice/razer-viper-ultimate/RZ01-03050100-R3U1)
+11. Razer Keyboard - [razer.com](https://www.razer.com/gaming-keyboards/Razer-BlackWidow-Elite/RZ03-02621800-R3M1)
+12. Steelseries headset - [steelseries.com](https://steelseries.com/gaming-headsets/arctis-pro-wireless?color=black)
+13. Secret Lab Chair - [cyberpunk.net](https://www.cyberpunk.net/en/news/35593/the-secretlab-cyberpunk-2077-edition)
+14. Background image on Events page - [steelseries.com](https://steelseries.com/gaming-headsets/arctis-pro)
 
 ### Videos
 
@@ -181,7 +181,7 @@ Extensive testing to ensure the visual layout, as well as all links are directed
 
 The project was deployed to GitHub. This is done using the following steps:
 1.  Log in to GitHub and locate the Repository
-2.  Click the "Settings" button. This can be found [here](https://github.com/JaeWong91/GAME-ROOM/blob/master/assets/images/github-settings-btn.png)
+2.  Click the "Settings" button. This can be found here: ![](readme-images/github-settings-btn.png) 
 3.  Scroll down the page until you reach the "GitHub Pages" section.
 4.  Under "Source", the default dropdown option is "None". Change this to "Master Branch".
 5.  Ensure that "/ (Root)" is also selcted and then click "Save".
