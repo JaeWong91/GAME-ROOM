@@ -122,4 +122,49 @@ Other specific images were found with their corresponding links below where I wa
 
 Using [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) to ensure there were no syntax errors in the project.
 
+Visually on mobile or similar sized devices, there will be a single column to display the content throughout the website for easier visibility.
+For tablets and desktops, there are pages where columns are introduced which is assisted by the Bootstrap Grid System.
 
+### Testing User Stories from User Experience (UX) Section
+
+-   ### First Time Visitor Goals
+
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the store and the services they provide.
+        
+        1. When first entering the site, the home page describes what Game-Room is - a place for gaming enthusiasts to play on a PC at a low cost of £2 per hour (shown as the text, overlaying the hero image).
+    
+    2. As a First Time Visitor, I want to easily navigate the site, view what computer hardware, gaming gear and video games are available.
+        
+        1. There are sections that briefly describe the library of games and the importance of gear used on the machines. Each have their own "Read More" links to direct the user to their respective pages for more detailed information.
+
+    3. As a First Time Visitor, I want to look for information regarding opening times, costs, location and contact details.
+
+        1. The opening times can be seen in the footer, as well as the location and contact information (email and telephone). The cost is shown on top of the hero image.
+
+-   ### Returning Visitor Goals
+
+    1. As a Returning Visitor, I want to find out information of competitions/events being held.
+
+        1. The information for events can be found on the Events page where a schedule is displayed for upcoming events. This can be easily accessed through the navigation bar, or the "Read More" button found in the events section on the homepage. 
+
+    2. As a Returning Visitor, I want to find out how to get in touch for questions I may have or sign up to enter an upcoming competition.
+
+        1. The footer houses the email address and telephone number. The contact page, which can be accessed by using the navigation bar. This page contains a submission form where a user can complete to ask a question. The events page also includes a form where a user can select an event, using the dropdown list.
+
+    3. As a Returning Visitor, I want to find out if a new game is available, or new hardware installed.
+
+        1. Both games and gear pages can be accessed using the navigation bar, or the "Learn More" links in their respective sections on the home page. The games page lists a number of games where as the gear page shows the components and accessories available. The used is also able to use the contact form on the contact page to enquire if a game is installed. The hardware and accessories are accompanied by links that direct to official websites for that particular component or item.
+
+-   ### Frequent User Goals
+            
+    1. As a Frequent User, I want to find the next competition date and time.
+
+        1. This can be found on the Events page which houses the schedule of upcoming competitions.
+
+    2. As a Frequent User, I want to check the opening times and ask questions using the form.
+
+        1. The opening times are displayed in the footer where as the form for questions is available on the Contact page.
+
+    3. As a Frequent User, I want to check if a new video game is installed on their machines, as well as latest hardware.
+
+        1. As there are thousands of video games out there, it is impossible to list all available on the site. The best way would be to contact the venue to see if a game is available where if not, can be installed and prepared for the customer. The hardware can also be found on the Gear page. 
