@@ -130,7 +130,7 @@ Extensive testing to ensure the visual layout, as well as all links are directed
 
 ## Known Bugs
 
--   The Contact page, when scrolling becomes laggy when viewed on a mobile device.
+-   The Contact page, when scrolling becomes laggy when viewed on a mobile device. This may be due to the high quality hero image.
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -177,3 +177,13 @@ Extensive testing to ensure the visual layout, as well as all links are directed
         1. As there are thousands of video games out there, it is impossible to list all available on the site. The best way would be to contact the venue to see if a game is available where if not, can be installed and prepared for the customer. The hardware can also be found on the Gear page. 
 
 
+## Deployment
+
+The project was deployed to GitHub. This is done using the following steps:
+1.  Log in to GitHub and locate the Repository
+2.  Click the "Settings" button. This can be found [here](https://github.com/JaeWong91/GAME-ROOM/blob/master/assets/images/github-settings-btn.png)
+3.  Scroll down the page until you reach the "GitHub Pages" section.
+4.  Under "Source", the default dropdown option is "None". Change this to "Master Branch".
+5.  Ensure that "/ (Root)" is also selcted and then click "Save".
+6.  The page will automatically refresh. Scroll down back to the "GitHub Pages" section.
+7.  The website is now published where a link is provided.
