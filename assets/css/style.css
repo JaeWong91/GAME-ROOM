@@ -43,7 +43,7 @@ body {
 }
 
 .navbar-dark .navbar-toggler {
-    border-color: transparent;      /*--remove border from burger menu icon credit stack flow */
+    border-color: transparent;    /*--remove border from burger menu icon credit stack flow */
 }
 
 .navbar-toggler-icon {
