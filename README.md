@@ -2,6 +2,8 @@
 
 This is a website for an internet café, a gathering place for PC gamers. The venue provides the use of their gaming PCs at a low cost and the store will hold regular gaming competitions with the latest PC hardware and games installed. It will be designed to be accessible and responsive on a range of devices, targeted mainly for customers who enjoy video gaming, socialising and competing.
 
+The website can be found [here](https://jaewong91.github.io/GAME-ROOM/).
+
 ## User Experience (UX)
 
 -   ### User Stories
@@ -35,9 +37,9 @@ This is a website for an internet café, a gathering place for PC gamers. The ve
 
 *   ### Wireframes
 
-    -   [Desktop Wireframe]()
+    -   [Desktop Wireframe](./readme-images/wireframe-desktop.pdf)
 
-    -   [Mobile Wireframe]() 
+    -   [Mobile Wireframe](./readme-images/wireframe-mobile.pdf) 
 
 
 ## Features
@@ -53,7 +55,7 @@ This is a website for an internet café, a gathering place for PC gamers. The ve
 
 -   A fixed "back to top" button for easier navigation.
 -   A google maps feature to show location of the venue.
--   For small displays, the navigation expand animation is not as smooth as intended. This may be due to have two seperate lists integrated into one collapse.
+
 
 ## Technologies Used
 
@@ -130,7 +132,7 @@ Extensive testing to ensure the visual layout, as well as all links are directed
 
 ## Known Bugs
 
--   The Contact page, when scrolling becomes laggy when viewed on a mobile device. This may be due to the high quality hero image.
+-   For small displays, the navigation expand animation is not as smooth as intended. This may be due to have two seperate lists integrated into one collapse.   
 
 ### Testing User Stories from User Experience (UX) Section
 
