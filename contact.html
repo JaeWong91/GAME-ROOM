@@ -63,91 +63,85 @@
     </section>
 
     <!--Contact Form-->
-    <section>
-        <div class="container pb-2">
-        </div>
-	    <form class="container col-10 col-md-7 col-lg-7">
-            <div class="row">
-		        <div class="form-group col-lg-6">
-			        <input type="text" class="form-control" id="first-name" placeholder="First name" required>
-	    	    </div>
-		        <div class="form-group col-lg-6">
-			    	<input type="text" class="form-control" id="last-name" placeholder="Last name" required>
-		        </div>
-            </div>
-            <div class="row">
-		        <div class="form-group col-lg-6">
-			        <input type="tel" class="form-control" id="phone"  pattern="[0-9]{11}" placeholder="Tel/Mobile number (optional)">
-	    	    </div>
-		        <div class="form-group col-lg-6">
-			    	<input type="email" class="form-control" id="email-address" placeholder="Email address" required>
-	    	    </div>
-            </div>
-            <div class="form-group">
-			    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+	<form class="container col-10 col-md-7 col-lg-7">
+		<div class="row">
+			<div class="form-group col-lg-6">
+				<input type="text" class="form-control" id="first-name" placeholder="First name" required>
 		    </div>
-			<div class="form-group">
-				<textarea class="form-control" id="message" rows="5" placeholder="Message" required></textarea>
+			<div class="form-group col-lg-6">
+				<input type="text" class="form-control" id="last-name" placeholder="Last name" required>
 			</div>
-            <button type="submit" class="d-block mx-auto btn btn-primary" >Submit</button>
-	    </form>
-    </section>
+		</div>
+		<div class="row">
+			<div class="form-group col-lg-6">
+				<input type="tel" class="form-control" id="phone"  pattern="[0-9]{11}" placeholder="Tel/Mobile number (optional)">
+		    </div>
+			<div class="form-group col-lg-6">
+				<input type="email" class="form-control" id="email-address" placeholder="Email address" required>
+		   	</div>
+		</div>
+		<div class="form-group">
+			<input type="text" class="form-control" id="subject" placeholder="Subject" required>
+		</div>
+		<div class="form-group">
+			<textarea class="form-control" id="message" rows="5" placeholder="Message" required></textarea>
+		</div>
+		<button type="submit" class="d-block mx-auto btn btn-primary" >Submit</button>
+	</form>
 
     <!--footer with opening times, contact details and social media links-->
-    <footer>
-        <section>
-            <div class="container">
-                <hr>
-                <div class="row">
-					<div class="col-sm-5 col-lg-2 w-50 text-left mx-auto ml-lg-0 ">
-						<ul style="list-style-type:none;">
-							<li class="text-center text-lg-left"><b>Opening Hours</b></li>
-							<li><span>Mon-Fri</span> <span class="float-right">9am-11pm</span></li>
-							<li><span>Saturday</span> <span class="float-right">10am-12am</span></li>
-                            <li><span>Sunday</span> <span class="float-right">11am-8pm</span></li>
-                            <li class="text-center text-md-left"><em>For public holidays, please contact us for information</em></li>
-						</ul>
-                    </div>
-                    <div class="col-sm-12 col-lg-6 text-center">
-						<ul style="list-style-type:none;">
-							<li><b>Contact Details</b></li>
-							<li><i class="fas fa-envelope"></i> support@gameroom.com</li>
-                            <li><i class="fas fa-phone-alt"></i> 01443 888777</li>			                     
-						</ul>
-                    </div>
-					<div class="col-sm-12 col-lg-3 text-center text-lg-right">
-						<ul class="list-inline social-links">
-							<li class="list-inline-item">
-								<a target="_blank" href="//facebook.com">
-									<i class="fab fa-facebook-f" aria-hidden="true"></i>
-									<span class="sr-only">Facebook</span>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a target="_blank" href="//instagram.com">
-									<i class="fab fa-instagram" aria-hidden="true"></i>
-									<span class="sr-only">Instagram</span>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a target="_blank" href="//twitter.com">
-									<i class="fab fa-twitter" aria-hidden="true"></i>
-									<span class="sr-only">Twitter</span>
-								</a>
-							</li>
-							<li class="list-inline-item">
-								<a target="_blank" href="//youtube.com">
-									<i class="fab fa-youtube" aria-hidden="true"></i>
-									<span class="sr-only">YouTube</span>
-								</a>
-							</li>
-						</ul>
-					</div>
-                </div>
-            </div>
-        </section>        
-
-    </footer>
+	<footer>
+		<div class="container">
+			<hr>
+			<div class="row">
+				<div class="col-sm-5 col-md-3 col-lg-2 w-50 text-left mx-auto ml-lg-0 ">
+					<ul style="list-style-type:none;">
+						<li class="text-center text-lg-left"><b>Opening Hours</b></li>
+						<li><span>Mon-Fri</span> <span class="float-right">9am-11pm</span></li>
+						<li><span>Sat</span> <span class="float-right">10am-12am</span></li>
+						<li><span>Sun</span> <span class="float-right">11am-8pm</span></li>
+						<li class="text-center text-lg-left"><em>For public holidays, please contact us for information</em>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-12 col-lg-6 text-center">
+					<ul style="list-style-type:none;">
+						<li><b>Contact Details</b></li>
+						<li><i class="fas fa-envelope"></i> support@gameroom.com</li>
+						<li><i class="fas fa-phone-alt"></i> 01443 888777</li>
+					</ul>
+				</div>
+				<div class="col-sm-12 col-lg-3 text-center text-lg-right">
+					<ul class="list-inline social-links">
+						<li class="list-inline-item">
+							<a target="_blank" href="//facebook.com">
+								<i class="fab fa-facebook-f" aria-hidden="true"></i>
+								<span class="sr-only">Facebook</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="//instagram.com">
+								<i class="fab fa-instagram" aria-hidden="true"></i>
+								<span class="sr-only">Instagram</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="//twitter.com">
+								<i class="fab fa-twitter" aria-hidden="true"></i>
+								<span class="sr-only">Twitter</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a target="_blank" href="//youtube.com">
+								<i class="fab fa-youtube" aria-hidden="true"></i>
+								<span class="sr-only">YouTube</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
