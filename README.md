@@ -84,6 +84,8 @@ The website can be found [here](https://jaewong91.github.io/GAME-ROOM/).
     - A free image stock site where their images were used throughout the project.
 1. [Unsplash](https://unsplash.com/)
     - An alternative free image stock site, much like Pexels.
+1. [PicResize](https://picresize.com/)
+    - This is used to resize large images down to smaller files.
 
 
 ### Code
@@ -122,7 +124,9 @@ Other specific images were found with their corresponding links below where I wa
 
 ## Testing
 
-   1. Using [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) to ensure there were no syntax errors in the project.
+   1. Using [W3C Markup Validator](https://validator.w3.org/) and  to ensure there were no syntax errors in the HTML code.
+
+   1. For CSS, I used [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) An error showed that the CSS property "padding-inline-start" was not recognised. Having looked into this, the [Mozilla Developer site](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-inline-start#Browser_compatibility) describes this as an "experimental technology".
 
    2. Visually on mobile or similar sized devices, there will be a single column to display the content throughout the website for easier visibility.
 For tablets and desktops, there are pages where columns are introduced which is assisted by the Bootstrap Grid System.
@@ -132,7 +136,7 @@ Extensive testing to ensure the visual layout, as well as all links are directed
 
 ## Known Bugs
 
--   For small displays, the navigation expand animation is not as smooth as intended. This may be due to have two seperate lists integrated into one collapse.   
+-   For small displays, the navigation expand animation is not as smooth as intended, you can notice a jitter upon expansion. The retraction, however, appears to be smooth. This may be due to have two seperate lists integrated into one collapse.   
 
 ### Testing User Stories from User Experience (UX) Section
 

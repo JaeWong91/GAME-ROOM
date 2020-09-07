@@ -17,7 +17,6 @@ body {
     font-family: 'Encode Sans', sans-serif;
 }
 
-
 /*------------------------ Navigation Bar and Title */
 
 .title {
@@ -47,10 +46,6 @@ body {
     border-color: transparent;      /*--remove border from burger menu icon credit stack flow */
 }
 
-.nav-item:hover {                /*NOT WORKING*/
-    color: #3a7e99;
-}
-
 .navbar-toggler-icon {
     vertical-align: initial;
 }
@@ -58,7 +53,6 @@ body {
 .navbar-collapse {
     display: flex;
 }
-
 
 /*------------------------ Footer */
 
@@ -69,7 +63,7 @@ footer {
 }
 
 footer, ul {
-    padding-inline-start: 0;
+    padding-inline-start: 0; /* This property was flagged as invalid, but I see that this is currently in experimental stage, also provide link */
 }
 
 .social-links li a i {
@@ -90,14 +84,13 @@ footer, ul {
     color: #3a7e99;
 }
 
-
 /*------------------------ Images */
 
 hr {
     border-color: #3a7e99;
 }
 
-.home-image {
+.hero-image {
     position: relative;
     height: 60vh;
     display: flex;
@@ -105,7 +98,7 @@ hr {
     justify-content: center;
 }
 
-.home-image::before {
+#home-bg::before {
     content: "";
     background: url('../images/home-page.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -113,11 +106,71 @@ hr {
     -o-background-size: cover;
     background-size: cover;
     position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.8 ;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+#thegames-bg::before {
+    content: "";
+    background: url('../images/thegames-bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.6;
+}
+
+#thegear-bg::before {
+    content: "";
+    background: url('../images/gear2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.4;
+}
+
+#events-bg::before {
+    content: "";
+    background: url('../images/eventsbg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+#contact-bg::before {
+    content: "";
+    background: url('../images/contact.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.4;
 }
 
 .line-sep {
@@ -126,99 +179,7 @@ hr {
     width: 60%;
 }
 
-.thegamesbg-image {
-    position: relative;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.thegamesbg-image::before {
-    content: "";
-    background: url('../images/thegames-bg.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.6 ;
-}
-
-.thegearbg-image {
-    position: relative;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.thegearbg-image::before {
-    content: "";
-    background: url('../images/gear2.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.4 ;
-}
-
-.eventsbg-image {
-    position: relative;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.eventsbg-image::before {
-    content: "";
-    background: url('../images/eventsbg.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.5 ;
-}
-
-.contactbg-image {
-    position: relative;
-    height: 60vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contactbg-image::before {
-    content: "";
-    background: url('../images/contact.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.3 ;
-}
-
-.gameslist-image {
+.home-section {
     position: relative; 
     margin-top: 5%;
     margin-bottom: 5%;
@@ -226,20 +187,13 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
-    .gameslist-image {
+    #gameslist-image {
         float: right;
   }
 }
 
-.gear-home-image {
-    position: relative; 
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 70%;
-}
-
 @media screen and (min-width: 768px) {
-    .gear-home-image {
+    #gear-home-image {
         float: left;
     }
 }
@@ -249,13 +203,11 @@ hr {
     opacity: 80%;
 }
 
-
 /*------------------------ Carousel */
 
 @media (max-width: 767px) {
     .carousel-item>img {
         height: 200px;
-        
     }
 }
 
@@ -268,7 +220,6 @@ hr {
 .carousel-indicators {
     position: relative;
 }
-
 
 /*------------------------ Text */
 
