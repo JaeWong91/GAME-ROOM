@@ -120,10 +120,17 @@ Other specific images were found with their corresponding links below where I wa
 
 ## Testing
 
-Using [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) to ensure there were no syntax errors in the project.
+   1. Using [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) to ensure there were no syntax errors in the project.
 
-Visually on mobile or similar sized devices, there will be a single column to display the content throughout the website for easier visibility.
+   2. Visually on mobile or similar sized devices, there will be a single column to display the content throughout the website for easier visibility.
 For tablets and desktops, there are pages where columns are introduced which is assisted by the Bootstrap Grid System.
+
+   3. Testing was performed using Google Chrome's device toggle feature. These include iPhones, Samsung Galaxy, iPad and iPad Pro.
+Extensive testing to ensure the visual layout, as well as all links are directed to the correct page or websites (external websites are always automatically opened in a new tab). 
+
+## Known Bugs
+
+-   The Contact page, when scrolling becomes laggy when viewed on a mobile device.
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -168,3 +175,5 @@ For tablets and desktops, there are pages where columns are introduced which is 
     3. As a Frequent User, I want to check if a new video game is installed on their machines, as well as latest hardware.
 
         1. As there are thousands of video games out there, it is impossible to list all available on the site. The best way would be to contact the venue to see if a game is available where if not, can be installed and prepared for the customer. The hardware can also be found on the Gear page. 
+
+
