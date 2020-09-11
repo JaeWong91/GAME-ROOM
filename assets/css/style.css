@@ -1,21 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+body {
+    background-color:rgb(0, 0, 0, 0.9);
+    color: #d3d3d3; 
+    font-family: 'Encode Sans', sans-serif;
+}
+
 header {
     margin: 0;
     font-family: 'Righteous', sans-serif;
-    }
+}
 
 .container {
     width: 100%;
     margin-top: 0px;
 }
 
-body {
-    background-color:rgb(0, 0, 0, 0.9);
-    color: #d3d3d3; 
-    font-family: 'Encode Sans', sans-serif;
-}
 
 /*------------------------ Navigation Bar and Title */
 
@@ -54,48 +55,12 @@ body {
     display: flex;
 }
 
-/*------------------------ Footer */
-
-footer {
-    font-size: 14px;
-    padding-top: 30px;
-    margin: 0;
-}
-
-footer, ul {
-    padding-inline-start: 0; /* This property was flagged as invalid, but I see that this is currently in experimental stage, also provide link */
-}
-
-.social-links li a i {
-    color: white;
-    width: 28px;
-    height: 28px;
-    padding-top: 20px;
-    font-size: 25px;
-    line-height: 7px;
-    text-align: center;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    color: #3a7e99;
-}
-
-@media screen and (min-width: 1000px) {
-    .opening-hours {
-        padding-left: 15px;
-        margin-right: -20px;
-  }
-}
-
-/*------------------------ Images */
-
 hr {
     border-color: #3a7e99;
 }
+
+
+/*------------------------ Images */
 
 .hero-image {
     position: relative;
@@ -105,78 +70,42 @@ hr {
     justify-content: center;
 }
 
-#home-bg::before {
-    content: "";
-    background: url('../images/home-page.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.hero-image::before {
+    content: "";  
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
+}
+
+#home-bg::before {
+    background: url('../images/home-page.jpg') no-repeat center center fixed;
+    background-size: cover;
     opacity: 0.8;
 }
 
 #thegames-bg::before {
-    content: "";
     background: url('../images/thegames-bg.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     opacity: 0.6;
 }
 
 #thegear-bg::before {
-    content: "";
     background: url('../images/gear2.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     opacity: 0.4;
 }
 
 #events-bg::before {
-    content: "";
     background: url('../images/eventsbg.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     opacity: 0.5;
 }
 
 #contact-bg::before {
-    content: "";
     background: url('../images/contact.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     opacity: 0.4;
 }
 
@@ -193,36 +122,13 @@ hr {
     width: 70%;
 }
 
-@media screen and (min-width: 768px) {
-    #gameslist-image {
-        float: right;
-  }
-}
-
-@media screen and (min-width: 768px) {
-    #gear-home-image {
-        float: left;
-    }
-}
-
 .event-home-image {
     position: relative; 
     opacity: 80%;
 }
 
+
 /*------------------------ Carousel */
-
-@media (max-width: 767px) {
-    .carousel-item>img {
-        height: 200px;
-    }
-}
-
-@media (min-width: 768px) {
-    .carousel-item>img {
-        height: 300px;
-    }
-}
 
 .carousel-indicators {
     position: relative;
@@ -262,26 +168,7 @@ p {
     font-size: 14px;
 }
 
-@media screen and (min-width: 768px) {   /*home page "The Games" section */
-    .games-desc h5,
-    .games-desc > a {
-        text-align: left;
-        margin-top: 10%;
-    }
-}
-
-@media screen and (min-width: 768px) {  /*home page "The Gear" section */
-    .gear-desc h5 {
-        text-align: right;
-        margin-top: 10%;
-    }
-}
-
 p>a {
-    color:  #3a7e99;
-}
-
-span>a {
     color:  #3a7e99;
 }
 
@@ -291,17 +178,93 @@ p>a:hover {
     text-decoration: none;
 }
 
+span>a {
+    color:  #3a7e99;
+}
+
 span>a:hover {
     color: white;
     border-color: #3a7e99;
     text-decoration: none;
 }
 
+.schedule {
+    border-color: #3a7e99;
+    background-color: #1b384441;
+}
+
 .schedule>ul {
     font-size: 14px;
 }
 
-.schedule {
-    border-color: #3a7e99;
-    background-color: #1b384441;
+
+/*------------------------ Media queries */
+
+@media screen and (min-width: 768px) {   
+    .games-desc h5,
+    .games-desc > a {
+        text-align: left;
+        margin-top: 10%;
+    }
+
+    .gear-desc h5 {
+        text-align: right;
+        margin-top: 10%;
+    }
+
+    #gear-home-image {
+        float: left;
+    }
+
+    #gameslist-image {
+        float: right;
+    }
+
+    .carousel-item>img {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item>img {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .opening-hours {
+        padding-left: 15px;
+        margin-right: -20px;
+    }
+}
+
+
+/*------------------------ Footer */
+
+footer {
+    font-size: 14px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+footer, ul {
+    padding-inline-start: 0; /* This property was flagged as invalid, but I see that this is currently in experimental stage, also provide link */
+}
+
+.social-links li a i {
+    color: white;
+    width: 28px;
+    height: 28px;
+    padding-top: 20px;
+    font-size: 25px;
+    line-height: 7px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #3a7e99;
 }
