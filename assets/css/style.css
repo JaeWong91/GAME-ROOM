@@ -84,6 +84,13 @@ footer, ul {
     color: #3a7e99;
 }
 
+@media screen and (min-width: 1000px) {
+    .opening-hours {
+        padding-left: 15px;
+        margin-right: -35px;
+  }
+}
+
 /*------------------------ Images */
 
 hr {
