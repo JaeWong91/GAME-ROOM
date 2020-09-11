@@ -133,6 +133,9 @@ For tablets and desktops, there are pages where columns are introduced which is 
 
    3. Testing was performed using Google Chrome's device toggle feature. These include iPhones, Samsung Galaxy, iPad and iPad Pro.
 Extensive testing to ensure the visual layout, as well as all links are directed to the correct page or websites (external websites are always automatically opened in a new tab). 
+The documentation of the testing can be found [here](./readme-images/project-testing.pdf).
+
+
 
 ## Known Bugs
 
