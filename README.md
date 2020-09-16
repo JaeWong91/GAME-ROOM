@@ -151,14 +151,20 @@ The documentation of the testing can be found [here](./readme-images/project-tes
     1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the store and the services they provide.
         
         1. When first entering the site, the home page describes what Game-Room is - a place for gaming enthusiasts to play on a PC at a low cost of £2 per hour (shown as the text, overlaying the hero image).
-    
+            
+            ![](./readme-images/homepage.png)
+
     2. As a First Time Visitor, I want to easily navigate the site, view what computer hardware, gaming gear and video games are available.
         
         1. The navigation bar shows clearly the pages available and accessible. There are sections that briefly describe the library of games and the importance of gear used on the machines. Each have their own "Read More" links to direct the user to their respective pages for more detailed information.
 
+            ![](./readme-images/link-button.png)
+
     3. As a First Time Visitor, I want to look for information regarding opening times, costs, location and contact details.
 
         1. The opening times can be seen in the footer on all pages of the website, as well as the location and contact information (email and telephone). The cost is shown on top of the hero image on the home page.
+
+            ![](./readme-images/footer.png)
 
 -   ### Returning Visitor Goals
 
@@ -166,13 +172,19 @@ The documentation of the testing can be found [here](./readme-images/project-tes
 
         1. The information for events can be found on the Events page where a schedule is displayed for upcoming events. This can be easily accessed through the navigation bar, or the "Read More" button found in the events section on the homepage. 
 
+            ![](./readme-images/events.png)
+
     2. As a Returning Visitor, I want to find out how to get in touch for questions I may have or sign up to enter an upcoming competition.
 
         1. The footer houses the email address and telephone number. The contact page, which can be accessed by using the navigation bar. This page contains a submission form where a user can complete to ask a question. The events page also includes a form where a user can select an event, using the dropdown list.
 
+            ![](./readme-images/contact.png)
+
     3. As a Returning Visitor, I want to find out if a new game is available, or new hardware installed.
 
         1. Both games and gear pages can be accessed using the navigation bar, or the "Learn More" links in their respective sections on the home page. The games page lists a number of games where as the gear page shows the components and accessories available. The used is also able to use the contact form on the contact page to enquire if a game is installed. The hardware and accessories are accompanied by links that direct to official websites for that particular component or item.
+
+            ![](./readme-images/peripherals.png)
 
 -   ### Frequent User Goals
             
