@@ -98,33 +98,6 @@ The website can be found [here](https://jaewong91.github.io/GAME-ROOM/).
 3. [Coder-coder](https://coder-coder.com/background-image-opacity/#:~:text=Since%20the%20pseudo-element%20is,so%20it%20doesn't%20collapse) - The code to change the background hero image opacity without affecting the text. 
 
 
-### Images
-
-Some Images taken from free stock sites www.pexels.com and https://unsplash.com/
-
-Other specific images were found with their corresponding links below where I was unable to find suitable ones on Pexels or Unsplash.
-
-1. Background Image on 'Games' page - [wallpeperaccess.com](wallpaperaccess.com)
-2. league of legends image - [rememberthemothers.net](https://rememberthemothers.net/wp-content/uploads/2016/06/22002-league-of-legends-1920x1080-game-wallpaper.png)
-3. Valorant image - [techcoffeehouse.com](https://techcoffeehouse.com/2020/06/03/valorant-is-now-live-and-free-to-play-worldwide/)
-4. Call of Duty image - [humblebundle.com](https://www.humblebundle.com/)
-5. Starcraft 2 image - [gamivo.com](https://www.gamivo.com/product/starcraft-2-wings-of-liberty-eu)
-6. Assassin's Creed Odyssey - [humblebundle.com](https://www.humblebundle.com/store/assassins-creed-odyssey)
-7. Fall Guys image - [fallguys.com](fallguys.com)
-8. Overwatch image - [playoverwatch.com](https://playoverwatch.com/en-gb/)
-9. Final fantasy image - [na.finalfantasyxiv.com](https://na.finalfantasyxiv.com/shadowbringers/)
-10. Razer Mouse - [razer.com](https://www.razer.com/gaming-mice/razer-viper-ultimate/RZ01-03050100-R3U1)
-11. Razer Keyboard - [razer.com](https://www.razer.com/gaming-keyboards/Razer-BlackWidow-Elite/RZ03-02621800-R3M1)
-12. Steelseries headset - [steelseries.com](https://steelseries.com/gaming-headsets/arctis-pro-wireless?color=black)
-13. Secret Lab Chair - [cyberpunk.net](https://www.cyberpunk.net/en/news/35593/the-secretlab-cyberpunk-2077-edition)
-14. Background image on Events page - [steelseries.com](https://steelseries.com/gaming-headsets/arctis-pro)
-
-### Videos
-
-1. Graphics Card - RTX 3080 - [Youtube, nVidia channel](https://www.youtube.com/watch?v=7QeoZY4tf9I)
-2. CPU - AMD Ryzen 9 3950X - [Youtube, AMD channel](https://www.youtube.com/watch?v=pnisNxZonX4&feature=emb_title&ab_channel=AMD)
-3. Monitor - TUF Gaming VG32VQ - [Youtube, Asus channel](https://www.youtube.com/watch?v=O6tQY8UI2U0&feature=emb_title&ab_channel=ASUS)
-
 ## Testing
 
    1. Using [W3C Markup Validator](https://validator.w3.org/) and  to ensure there were no syntax errors in the HTML code.
@@ -211,3 +184,42 @@ The project was deployed to GitHub. This is done using the following steps:
 5.  Ensure that "/ (Root)" is also selcted and then click "Save".
 6.  The page will automatically refresh. Scroll down back to the "GitHub Pages" section.
 7.  The website is now published where a link is provided.
+
+## Credits
+
+### content
+
+- All content was written by myself using my own basic knowledge and online research of the games and gear.
+
+### Images
+
+Some Images taken from free stock sites www.pexels.com and https://unsplash.com/
+
+Other specific images were found with their corresponding links below where I was unable to find suitable ones on Pexels or Unsplash.
+
+1. Background Image on 'Games' page - [wallpeperaccess.com](wallpaperaccess.com)
+2. league of legends image - [rememberthemothers.net](https://rememberthemothers.net/wp-content/uploads/2016/06/22002-league-of-legends-1920x1080-game-wallpaper.png)
+3. Valorant image - [techcoffeehouse.com](https://techcoffeehouse.com/2020/06/03/valorant-is-now-live-and-free-to-play-worldwide/)
+4. Call of Duty image - [humblebundle.com](https://www.humblebundle.com/)
+5. Starcraft 2 image - [gamivo.com](https://www.gamivo.com/product/starcraft-2-wings-of-liberty-eu)
+6. Assassin's Creed Odyssey - [humblebundle.com](https://www.humblebundle.com/store/assassins-creed-odyssey)
+7. Fall Guys image - [fallguys.com](fallguys.com)
+8. Overwatch image - [playoverwatch.com](https://playoverwatch.com/en-gb/)
+9. Final fantasy image - [na.finalfantasyxiv.com](https://na.finalfantasyxiv.com/shadowbringers/)
+10. Razer Mouse - [razer.com](https://www.razer.com/gaming-mice/razer-viper-ultimate/RZ01-03050100-R3U1)
+11. Razer Keyboard - [razer.com](https://www.razer.com/gaming-keyboards/Razer-BlackWidow-Elite/RZ03-02621800-R3M1)
+12. Steelseries headset - [steelseries.com](https://steelseries.com/gaming-headsets/arctis-pro-wireless?color=black)
+13. Secret Lab Chair - [cyberpunk.net](https://www.cyberpunk.net/en/news/35593/the-secretlab-cyberpunk-2077-edition)
+14. Background image on Events page - [steelseries.com](https://steelseries.com/gaming-headsets/arctis-pro)
+
+### Videos
+
+1. Graphics Card - RTX 3080 - [Youtube, nVidia channel](https://www.youtube.com/watch?v=7QeoZY4tf9I)
+2. CPU - AMD Ryzen 9 3950X - [Youtube, AMD channel](https://www.youtube.com/watch?v=pnisNxZonX4&feature=emb_title&ab_channel=AMD)
+3. Monitor - TUF Gaming VG32VQ - [Youtube, Asus channel](https://www.youtube.com/watch?v=O6tQY8UI2U0&feature=emb_title&ab_channel=ASUS)
+
+
+## Acknowledgement
+
+-   I would like to thank my mentor Mark Railton for his help on this project. His tips and guidance gave me confidence in my work.
+-   My family for providing their positive opinions on the overall visuals and design of the website.
