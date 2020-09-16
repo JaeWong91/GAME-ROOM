@@ -60,7 +60,7 @@ hr {
 }
 
 
-/*------------------------ Images */
+/*------------------------ Images */ 
 
 .hero-image {
     position: relative;
@@ -70,6 +70,7 @@ hr {
     justify-content: center;
 }
 
+/*The before selector was used to adjust the opacity without affecting the callout text. The code was found on Coder-coder(https://coder-coder.com/background-image-opacity/#:~:text=Since%20the%20pseudo-element%20is,so%20it%20doesn't%20collapse)*/
 .hero-image::before {
     content: "";  
     position: absolute;

@@ -92,7 +92,7 @@ The website can be found [here](https://jaewong91.github.io/GAME-ROOM/).
 
 1. [Bootstrap 4]((https://getbootstrap.com/docs/4.5/getting-started/introduction/)) - Used throughout the project.
 2. [Stackoverflow](https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items) - The code for the dual collapse navigation bar was taken from Stackoverflow.
-3. [Coder-coder](https://coder-coder.com/background-image-opacity/#:~:text=Since%20the%20pseudo-element%20is,so%20it%20doesn't%20collapse) - The code to change the background hero image opacity without affecting text 
+3. [Coder-coder](https://coder-coder.com/background-image-opacity/#:~:text=Since%20the%20pseudo-element%20is,so%20it%20doesn't%20collapse) - The code to change the background hero image opacity without affecting the text. 
 
 
 ### Images
