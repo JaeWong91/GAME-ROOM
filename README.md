@@ -2,6 +2,8 @@
 
 This is a website for an internet café, a gathering place for PC gamers. The venue provides the use of their gaming PCs at a low cost and the store will hold regular gaming competitions with the latest PC hardware and games installed. It will be designed to be accessible and responsive on a range of devices, targeted mainly for customers who enjoy video gaming, socialising and competing.
 
+![](readme-images/homepage-both-2.png) 
+
 The website can be found [here](https://jaewong91.github.io/GAME-ROOM/).
 
 ## User Experience (UX)
@@ -29,11 +31,11 @@ The website can be found [here](https://jaewong91.github.io/GAME-ROOM/).
 
 -   ### Design
     -   #### Colour Scheme
-        -   The three main colours used are black, blue and white.
+        -   The three main colours used are black with an opacity of 90%, soft blue and white. Having the background mainly in black gave the feel of an internet café, which are usually held in low-lit venues. The soft blue gave a type of neon colour which fits in-line with most gaming rigs with their RGB lights. I thought this combination worked well. A white font colour was used as with a black background, to make it easy to read.
     -   #### Typography
         -   The Encode Sans font was used for the text throughout the whole project, where as the Righteous font is used for the Title and headings. Sans Serif is used as the fallback for situations where the initial fonts were failing to process. I felt that the Righteous font had a distinct, "gamer" look where it was easy to read. The Encode Sans used for the text was not too eccentric and also easily readable.
     -   #### Imagery
-        -   I felt it was important to keep the images mainly on the darker side to coincide what an internet cafe would look like. They would typically be in dark rooms and with the hero images, opacity modifier was used to present this as well as the overlaying text to be easily displayed.
+        -   I felt it was important to keep the images mainly on the darker side to coincide with what an internet cafe would look like. They would typically be in dark rooms and with the hero images, opacity modifier was used to present this as well as having the overlaying text to be easily displayed.
 
 *   ### Wireframes
 
@@ -48,7 +50,7 @@ The website can be found [here](https://jaewong91.github.io/GAME-ROOM/).
 
 -   Responsive on all device sizes
 -   Interactive elements
--   Carousel in the Games page to house images of games available. I felt this was neccessary to be more presentable and less cluttered.
+-   Carousel in the Games page to house images of games available. I felt this was necessary to be more presentable and less cluttered.
 -   On the Events page, I added a dropdown selection for the user to select which event they wish to enter.
 
 ### Features left to implement
