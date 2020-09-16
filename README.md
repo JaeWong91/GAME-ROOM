@@ -52,6 +52,7 @@ The website can be found [here](https://jaewong91.github.io/GAME-ROOM/).
 -   Interactive elements.
 -   Carousel in the Games page to house images of games available. I felt this was necessary to be more presentable and less cluttered.
 -   On the Events page, I added a dropdown selection for the user to select which event they wish to enter.
+-   The Gear page contains imbedded youtube videos with user controls to showcase the high-end PC components installed on the machines.
 
 ### Features left to implement
 
