@@ -153,11 +153,11 @@ The documentation of the testing can be found [here](./readme-images/project-tes
     
     2. As a First Time Visitor, I want to easily navigate the site, view what computer hardware, gaming gear and video games are available.
         
-        1. There are sections that briefly describe the library of games and the importance of gear used on the machines. Each have their own "Read More" links to direct the user to their respective pages for more detailed information.
+        1. The navigation bar shows clearly the pages available and accessible. There are sections that briefly describe the library of games and the importance of gear used on the machines. Each have their own "Read More" links to direct the user to their respective pages for more detailed information.
 
     3. As a First Time Visitor, I want to look for information regarding opening times, costs, location and contact details.
 
-        1. The opening times can be seen in the footer, as well as the location and contact information (email and telephone). The cost is shown on top of the hero image.
+        1. The opening times can be seen in the footer on all pages of the website, as well as the location and contact information (email and telephone). The cost is shown on top of the hero image on the home page.
 
 -   ### Returning Visitor Goals
 
