@@ -9,39 +9,39 @@
     <title>GAME-ROOM</title>
 </head>
 <body>
-    <!--Navigation bar with Title-->
-	<header>
-		<nav class="container navbar w-100 navbar-expand-md navbar-dark ">
-			<div class="navbar-collapse collapse order-1 order-md-0 dual-collapse2">
-				<ul class="navbar-nav mx-auto text-center">
-					<li class="nav-item">
-						<a class="nav-link" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="games.html">Games</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="gear.html">Gear</a>
-					</li>
-				</ul>
-			</div>
-			<div class="container-fluid order-0 pl-0">
-				<button class="float-left mt-2 navbar-toggler " type="button" data-toggle="collapse" data-target=".dual-collapse2">
-				    <span class="navbar-toggler-icon"></span>
-				</button>            
+    <!--Navigation bar with Title. Code credit- The navigation bar code to enable the left, middle and right formation and dual collapse was found on Stackoverflow (https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items)-->
+    <header>
+        <nav class="container navbar w-100 navbar-expand-md navbar-dark ">
+            <div class="navbar-collapse collapse order-1 order-md-0 dual-collapse2">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="games.html">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gear.html">Gear</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-fluid order-0 pl-0">
+                <button class="float-left mt-2 navbar-toggler " type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>            
                 <a class="title pr-3" href="index.html">GAME-ROOM</a>
-			</div>
-			<div class="navbar-collapse collapse order-3 dual-collapse2">
-				<ul class="navbar-nav mx-auto text-center">
-					<li class="nav-item">
-						<a class="nav-link active" href="events.html">Events</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+            </div>
+            <div class="navbar-collapse collapse order-3 dual-collapse2">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <!--Hero image and callout-->
@@ -107,97 +107,97 @@
         <div class="container pb-2">
             <h6>Think you have what it takes? Enter a competition using the form below!</h6>
         </div>
-	    <form class="container col-10 col-md-7 col-lg-7">
+        <form class="container col-10 col-md-7 col-lg-7">
             <div class="row">
-		        <div class="form-group col-lg-6">
-			        <input type="text" class="form-control" id="first-name" placeholder="First name" required>
-	    	    </div>
-		        <div class="form-group col-lg-6">
-			    	<input type="text" class="form-control" id="last-name" placeholder="Last name" required>
-		        </div>
+                <div class="form-group col-lg-6">
+                    <input type="text" class="form-control" id="first-name" placeholder="First name" required>
+                </div>
+                <div class="form-group col-lg-6">
+                    <input type="text" class="form-control" id="last-name" placeholder="Last name" required>
+                </div>
             </div>
             <div class="row">
-		        <div class="form-group col-lg-6">
-			        <input type="tel" class="form-control" id="phone"  pattern="[0-9]{11}" placeholder="Tel/Mobile number">
-	    	    </div>
-		        <div class="form-group col-lg-6">
-			    	<input type="email" class="form-control" id="email-address" placeholder="Email address" required>
-	    	    </div>
+                <div class="form-group col-lg-6">
+                    <input type="tel" class="form-control" id="phone"  pattern="[0-9]{11}" placeholder="Tel/Mobile number">
+                </div>
+                <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" id="email-address" placeholder="Email address" required>
+                </div>
             </div>
-    		<div class="form-group">
-	    		<select class="form-control" id="event-list" required>
+            <div class="form-group">
+                <select class="form-control" id="event-list" required>
                     <option value="">-Select an event-</option>
-			    	<option>Sep 4 - Fall Guys</option>
-				    <option>Sep 18 - League of Legends</option>
-				    <option>Sep 26 - Call of Duty</option>
-				    <option>Oct 3 - Call of Duty</option>
-		    		<option>Oct 17 - Overwatch</option>
-	    			<option>Oct 23 - Valorant</option>
-	    			<option>Nov 6 - League of Legends</option>
-	    			<option>Nov 13 - StarCraft II</option>
-	    			<option>Nov 28 - Overwatch</option>
-	    			<option>Dec 6 - Valorant</option>
-	    			<option>Dec 12 - Overwatch</option>
-	    			<option>Dec 18 - League of Legends</option>
-	    	    </select>
-	    	</div>
+                    <option>Sep 4 - Fall Guys</option>
+                    <option>Sep 18 - League of Legends</option>
+                    <option>Sep 26 - Call of Duty</option>
+                    <option>Oct 3 - Call of Duty</option>
+                    <option>Oct 17 - Overwatch</option>
+                    <option>Oct 23 - Valorant</option>
+                    <option>Nov 6 - League of Legends</option>
+                    <option>Nov 13 - StarCraft II</option>
+                    <option>Nov 28 - Overwatch</option>
+                    <option>Dec 6 - Valorant</option>
+                    <option>Dec 12 - Overwatch</option>
+                    <option>Dec 18 - League of Legends</option>
+                </select>
+            </div>
             <button type="submit" class="d-block mx-auto btn btn-primary">Submit</button>
-	    </form>
+        </form>
     </section>
 
     <!--footer with opening times, contact details and social media links-->
-	<footer>
-		<div class="container">
-			<hr>
-			<div class="row">
-				<div class="col-sm-6 col-md-3 col-lg-2 w-50 text-left mx-auto px-0 ml-lg-0 ">
-					<ul style="list-style-type:none;" class="opening-hours">
-						<li class="text-center text-lg-left"><b>Opening Hours</b></li>
-						<li><span>Mon-Fri</span> <span class="float-right">9am-11pm</span></li>
-						<li><span>Sat</span> <span class="float-right">10am-12am</span></li>
-						<li><span>Sun</span> <span class="float-right">11am-8pm</span></li>
-						<li><span>Bank Holiday</span> <span class="float-right">11am-8pm</span></li>
-					</ul>
-				</div>
-				<div class="col-sm-12 col-lg-6 text-center">
-					<ul style="list-style-type:none;">
-						<li><b>Contact Details</b></li>
+    <footer>
+        <div class="container">
+            <hr>
+            <div class="row">
+                <div class="col-sm-6 col-md-3 col-lg-2 w-50 text-left mx-auto px-0 ml-lg-0 ">
+                    <ul style="list-style-type:none;" class="opening-hours">
+                        <li class="text-center text-lg-left"><b>Opening Hours</b></li>
+                        <li><span>Mon-Fri</span> <span class="float-right">9am-11pm</span></li>
+                        <li><span>Sat</span> <span class="float-right">10am-12am</span></li>
+                        <li><span>Sun</span> <span class="float-right">11am-8pm</span></li>
+                        <li><span>Bank Holiday</span> <span class="float-right">11am-8pm</span></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-lg-6 text-center">
+                    <ul style="list-style-type:none;">
+                        <li><b>Contact Details</b></li>
                         <li><i class="fas fa-home"></i> 1 Avenue St, Gamer Ind Est, Wales</li>
-						<li><i class="fas fa-envelope"></i> support@gameroom.com</li>
-						<li><i class="fas fa-phone-alt"></i> 01443 888777</li>
-					</ul>
-				</div>
-				<div class="col-sm-12 col-lg-3 text-center text-lg-right">
-					<ul class="list-inline social-links">
-						<li class="list-inline-item">
-							<a target="_blank" href="//facebook.com">
-								<i class="fab fa-facebook-f" aria-hidden="true"></i>
-								<span class="sr-only">Facebook</span>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="//instagram.com">
-								<i class="fab fa-instagram" aria-hidden="true"></i>
-								<span class="sr-only">Instagram</span>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="//twitter.com">
-								<i class="fab fa-twitter" aria-hidden="true"></i>
-								<span class="sr-only">Twitter</span>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a target="_blank" href="//youtube.com">
-								<i class="fab fa-youtube" aria-hidden="true"></i>
-								<span class="sr-only">YouTube</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
+                        <li><i class="fas fa-envelope"></i> support@gameroom.com</li>
+                        <li><i class="fas fa-phone-alt"></i> 01443 888777</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-lg-3 text-center text-lg-right">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="//facebook.com">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="//instagram.com">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="//twitter.com">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="//youtube.com">
+                                <i class="fab fa-youtube" aria-hidden="true"></i>
+                                <span class="sr-only">YouTube</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
