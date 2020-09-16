@@ -2,7 +2,7 @@
 
 This is a website for an internet café, a gathering place for PC gamers. The venue provides the use of their gaming PCs at a low cost and the store will hold regular gaming competitions with the latest PC hardware and games installed. It will be designed to be accessible and responsive on a range of devices, targeted mainly for customers who enjoy video gaming, socialising and competing.
 
-![](readme-images/homepage-both-2.png) 
+![](./readme-images/homepage-both-2.png) 
 
 The website can be found [here](https://jaewong91.github.io/GAME-ROOM/).
 
@@ -48,8 +48,8 @@ The website can be found [here](https://jaewong91.github.io/GAME-ROOM/).
 
 ### Existing Features
 
--   Responsive on all device sizes
--   Interactive elements
+-   Responsive on all device sizes.
+-   Interactive elements.
 -   Carousel in the Games page to house images of games available. I felt this was necessary to be more presentable and less cluttered.
 -   On the Events page, I added a dropdown selection for the user to select which event they wish to enter.
 
@@ -92,7 +92,7 @@ The website can be found [here](https://jaewong91.github.io/GAME-ROOM/).
 
 ### Code
 
-1. [Bootstrap 4]((https://getbootstrap.com/docs/4.5/getting-started/introduction/)) - Used throughout the project.
+1. [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/introduction/) - Used throughout the project.
 2. [Stackoverflow](https://stackoverflow.com/questions/19733447/bootstrap-navbar-with-left-center-or-right-aligned-items) - The code for the dual collapse navigation bar was taken from Stackoverflow.
 3. [Coder-coder](https://coder-coder.com/background-image-opacity/#:~:text=Since%20the%20pseudo-element%20is,so%20it%20doesn't%20collapse) - The code to change the background hero image opacity without affecting the text. 
 
